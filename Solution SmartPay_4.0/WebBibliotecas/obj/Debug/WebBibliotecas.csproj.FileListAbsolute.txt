@@ -1,0 +1,80 @@
+c:\users\administrador\documents\visual studio 2015\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\roslyn\csc.exe
+c:\users\administrador\documents\visual studio 2015\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\administrador\documents\visual studio 2015\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\administrador\documents\visual studio 2015\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\administrador\documents\visual studio 2015\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\administrador\documents\visual studio 2015\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\administrador\documents\visual studio 2015\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\administrador\documents\visual studio 2015\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\roslyn\System.Collections.Immutable.dll
+c:\users\administrador\documents\visual studio 2015\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\administrador\documents\visual studio 2015\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\roslyn\vbc.exe
+c:\users\administrador\documents\visual studio 2015\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\roslyn\VBCSCompiler.exe
+c:\users\administrador\documents\visual studio 2015\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\roslyn\VBCSCompiler.exe.config
+c:\users\administrador\documents\visual studio 2015\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\WebBibliotecas.dll.config
+c:\users\administrador\documents\visual studio 2015\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\WebBibliotecas.dll
+c:\users\administrador\documents\visual studio 2015\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\WebBibliotecas.pdb
+c:\users\administrador\documents\visual studio 2015\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\Bibliotecas.Negocio.dll
+c:\users\administrador\documents\visual studio 2015\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\EntityFramework.dll
+c:\users\administrador\documents\visual studio 2015\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\administrador\documents\visual studio 2015\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\Bibliotecas.Negocio.pdb
+c:\users\administrador\documents\visual studio 2015\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\EntityFramework.xml
+c:\users\administrador\documents\visual studio 2015\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\administrador\documents\visual studio 2015\Projects\Solution SmartPay_4.0\WebBibliotecas\obj\Debug\WebBibliotecas.csprojResolveAssemblyReference.cache
+c:\users\administrador\documents\visual studio 2015\Projects\Solution SmartPay_4.0\WebBibliotecas\obj\Debug\WebBibliotecas.dll
+c:\users\administrador\documents\visual studio 2015\Projects\Solution SmartPay_4.0\WebBibliotecas\obj\Debug\WebBibliotecas.pdb
+c:\users\administrador\documents\visual studio 2015\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\Bibliotecas.Dalc.dll
+c:\users\administrador\documents\visual studio 2015\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\Bibliotecas.Dalc.pdb
+C:\Users\fenix\Documents\DUOC\DUOC 2018 SEM2\portafolio\versiones app web\version11\Solution SmartPay_4.0\WebBibliotecas\bin\roslyn\csc.exe
+C:\Users\fenix\Documents\DUOC\DUOC 2018 SEM2\portafolio\versiones app web\version11\Solution SmartPay_4.0\WebBibliotecas\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\fenix\Documents\DUOC\DUOC 2018 SEM2\portafolio\versiones app web\version11\Solution SmartPay_4.0\WebBibliotecas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\fenix\Documents\DUOC\DUOC 2018 SEM2\portafolio\versiones app web\version11\Solution SmartPay_4.0\WebBibliotecas\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\fenix\Documents\DUOC\DUOC 2018 SEM2\portafolio\versiones app web\version11\Solution SmartPay_4.0\WebBibliotecas\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\fenix\Documents\DUOC\DUOC 2018 SEM2\portafolio\versiones app web\version11\Solution SmartPay_4.0\WebBibliotecas\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\fenix\Documents\DUOC\DUOC 2018 SEM2\portafolio\versiones app web\version11\Solution SmartPay_4.0\WebBibliotecas\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\fenix\Documents\DUOC\DUOC 2018 SEM2\portafolio\versiones app web\version11\Solution SmartPay_4.0\WebBibliotecas\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\fenix\Documents\DUOC\DUOC 2018 SEM2\portafolio\versiones app web\version11\Solution SmartPay_4.0\WebBibliotecas\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\fenix\Documents\DUOC\DUOC 2018 SEM2\portafolio\versiones app web\version11\Solution SmartPay_4.0\WebBibliotecas\bin\roslyn\vbc.exe
+C:\Users\fenix\Documents\DUOC\DUOC 2018 SEM2\portafolio\versiones app web\version11\Solution SmartPay_4.0\WebBibliotecas\bin\roslyn\VBCSCompiler.exe
+C:\Users\fenix\Documents\DUOC\DUOC 2018 SEM2\portafolio\versiones app web\version11\Solution SmartPay_4.0\WebBibliotecas\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\fenix\Documents\DUOC\DUOC 2018 SEM2\portafolio\versiones app web\version11\Solution SmartPay_4.0\WebBibliotecas\bin\WebBibliotecas.dll.config
+C:\Users\fenix\Documents\DUOC\DUOC 2018 SEM2\portafolio\versiones app web\version11\Solution SmartPay_4.0\WebBibliotecas\bin\WebBibliotecas.dll
+C:\Users\fenix\Documents\DUOC\DUOC 2018 SEM2\portafolio\versiones app web\version11\Solution SmartPay_4.0\WebBibliotecas\bin\WebBibliotecas.pdb
+C:\Users\fenix\Documents\DUOC\DUOC 2018 SEM2\portafolio\versiones app web\version11\Solution SmartPay_4.0\WebBibliotecas\bin\Bibliotecas.Negocio.dll
+C:\Users\fenix\Documents\DUOC\DUOC 2018 SEM2\portafolio\versiones app web\version11\Solution SmartPay_4.0\WebBibliotecas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\fenix\Documents\DUOC\DUOC 2018 SEM2\portafolio\versiones app web\version11\Solution SmartPay_4.0\WebBibliotecas\bin\Bibliotecas.Dalc.dll
+C:\Users\fenix\Documents\DUOC\DUOC 2018 SEM2\portafolio\versiones app web\version11\Solution SmartPay_4.0\WebBibliotecas\bin\Bibliotecas.Negocio.pdb
+C:\Users\fenix\Documents\DUOC\DUOC 2018 SEM2\portafolio\versiones app web\version11\Solution SmartPay_4.0\WebBibliotecas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\fenix\Documents\DUOC\DUOC 2018 SEM2\portafolio\versiones app web\version11\Solution SmartPay_4.0\WebBibliotecas\bin\Bibliotecas.Dalc.pdb
+C:\Users\fenix\Documents\DUOC\DUOC 2018 SEM2\portafolio\versiones app web\version11\Solution SmartPay_4.0\WebBibliotecas\bin\Bibliotecas.Dalc.dll.config
+C:\Users\fenix\Documents\DUOC\DUOC 2018 SEM2\portafolio\versiones app web\version11\Solution SmartPay_4.0\WebBibliotecas\obj\Debug\WebBibliotecas.csprojAssemblyReference.cache
+C:\Users\fenix\Documents\DUOC\DUOC 2018 SEM2\portafolio\versiones app web\version11\Solution SmartPay_4.0\WebBibliotecas\obj\Debug\WebBibliotecas.csproj.CoreCompileInputs.cache
+C:\Users\fenix\Documents\DUOC\DUOC 2018 SEM2\portafolio\versiones app web\version11\Solution SmartPay_4.0\WebBibliotecas\obj\Debug\WebBibliotecas.csproj.CopyComplete
+C:\Users\fenix\Documents\DUOC\DUOC 2018 SEM2\portafolio\versiones app web\version11\Solution SmartPay_4.0\WebBibliotecas\obj\Debug\WebBibliotecas.dll
+C:\Users\fenix\Documents\DUOC\DUOC 2018 SEM2\portafolio\versiones app web\version11\Solution SmartPay_4.0\WebBibliotecas\obj\Debug\WebBibliotecas.pdb
+C:\Users\fenix\Documents\Visual Studio 2017\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\roslyn\csc.exe
+C:\Users\fenix\Documents\Visual Studio 2017\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\fenix\Documents\Visual Studio 2017\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\fenix\Documents\Visual Studio 2017\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\fenix\Documents\Visual Studio 2017\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\fenix\Documents\Visual Studio 2017\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\fenix\Documents\Visual Studio 2017\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\fenix\Documents\Visual Studio 2017\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\fenix\Documents\Visual Studio 2017\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\fenix\Documents\Visual Studio 2017\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\roslyn\vbc.exe
+C:\Users\fenix\Documents\Visual Studio 2017\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\roslyn\VBCSCompiler.exe
+C:\Users\fenix\Documents\Visual Studio 2017\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\fenix\Documents\Visual Studio 2017\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\WebBibliotecas.dll.config
+C:\Users\fenix\Documents\Visual Studio 2017\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\WebBibliotecas.dll
+C:\Users\fenix\Documents\Visual Studio 2017\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\WebBibliotecas.pdb
+C:\Users\fenix\Documents\Visual Studio 2017\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\Bibliotecas.Negocio.dll
+C:\Users\fenix\Documents\Visual Studio 2017\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\fenix\Documents\Visual Studio 2017\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\Bibliotecas.Dalc.dll
+C:\Users\fenix\Documents\Visual Studio 2017\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\Bibliotecas.Negocio.pdb
+C:\Users\fenix\Documents\Visual Studio 2017\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\fenix\Documents\Visual Studio 2017\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\Bibliotecas.Dalc.pdb
+C:\Users\fenix\Documents\Visual Studio 2017\Projects\Solution SmartPay_4.0\WebBibliotecas\bin\Bibliotecas.Dalc.dll.config
+C:\Users\fenix\Documents\Visual Studio 2017\Projects\Solution SmartPay_4.0\WebBibliotecas\obj\Debug\WebBibliotecas.csprojAssemblyReference.cache
+C:\Users\fenix\Documents\Visual Studio 2017\Projects\Solution SmartPay_4.0\WebBibliotecas\obj\Debug\WebBibliotecas.csproj.CoreCompileInputs.cache
+C:\Users\fenix\Documents\Visual Studio 2017\Projects\Solution SmartPay_4.0\WebBibliotecas\obj\Debug\WebBibliotecas.csproj.CopyComplete
+C:\Users\fenix\Documents\Visual Studio 2017\Projects\Solution SmartPay_4.0\WebBibliotecas\obj\Debug\WebBibliotecas.dll
+C:\Users\fenix\Documents\Visual Studio 2017\Projects\Solution SmartPay_4.0\WebBibliotecas\obj\Debug\WebBibliotecas.pdb

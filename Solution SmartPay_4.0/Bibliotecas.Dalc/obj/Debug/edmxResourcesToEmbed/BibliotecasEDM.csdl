@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SmartPayModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Peaje">
+    <Key>
+      <PropertyRef Name="ruta" />
+    </Key>
+    <Property Name="ruta" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="precio" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="cantPortico" Type="Int32" />
+    <NavigationProperty Name="Viaje" Relationship="Self.FK_Viaje_Peaje" FromRole="Peaje" ToRole="Viaje" />
+    <Property Name="descuento" Type="Double" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="rut" />
+    </Key>
+    <Property Name="rut" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="direccion" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="telefono" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="contraseña" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="saldo" Type="Double" />
+    <Property Name="FechaRegistro" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Vehiculo" Relationship="Self.FK_Vehiculo_Usuario" FromRole="Usuario" ToRole="Vehiculo" />
+    <NavigationProperty Name="Viaje" Relationship="Self.FK_Viaje_Usuario" FromRole="Usuario" ToRole="Viaje" />
+    <Property Name="activo" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Vehiculo">
+    <Key>
+      <PropertyRef Name="patente" />
+    </Key>
+    <Property Name="patente" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="marca" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="modelo" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="color" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="rut" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Usuario" Relationship="Self.FK_Vehiculo_Usuario" FromRole="Vehiculo" ToRole="Usuario" />
+  </EntityType>
+  <EntityType Name="Viaje">
+    <Key>
+      <PropertyRef Name="codigo" />
+    </Key>
+    <Property Name="rut" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="patente" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="ruta" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="precio" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="fecha" Type="DateTime" Precision="0" />
+    <Property Name="codigo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Peaje" Relationship="Self.FK_Viaje_Peaje" FromRole="Viaje" ToRole="Peaje" />
+    <NavigationProperty Name="Usuario" Relationship="Self.FK_Viaje_Usuario" FromRole="Viaje" ToRole="Usuario" />
+  </EntityType>
+  <Association Name="FK_Viaje_Peaje">
+    <End Role="Peaje" Type="Self.Peaje" Multiplicity="0..1" />
+    <End Role="Viaje" Type="Self.Viaje" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Peaje">
+        <PropertyRef Name="ruta" />
+      </Principal>
+      <Dependent Role="Viaje">
+        <PropertyRef Name="ruta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Vehiculo_Usuario">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="0..1" />
+    <End Role="Vehiculo" Type="Self.Vehiculo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="rut" />
+      </Principal>
+      <Dependent Role="Vehiculo">
+        <PropertyRef Name="rut" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Viaje_Usuario">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="0..1" />
+    <End Role="Viaje" Type="Self.Viaje" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="rut" />
+      </Principal>
+      <Dependent Role="Viaje">
+        <PropertyRef Name="rut" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SmartPayEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Peaje" EntityType="Self.Peaje" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="Usuario" EntityType="Self.Usuario" />
+    <EntitySet Name="Vehiculo" EntityType="Self.Vehiculo" />
+    <EntitySet Name="Viaje" EntityType="Self.Viaje" />
+    <AssociationSet Name="FK_Viaje_Peaje" Association="Self.FK_Viaje_Peaje">
+      <End Role="Peaje" EntitySet="Peaje" />
+      <End Role="Viaje" EntitySet="Viaje" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Vehiculo_Usuario" Association="Self.FK_Vehiculo_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Vehiculo" EntitySet="Vehiculo" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Viaje_Usuario" Association="Self.FK_Viaje_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Viaje" EntitySet="Viaje" />
+    </AssociationSet>
+    <EntitySet Name="RegistroDescuento" EntityType="SmartPayModel.RegistroDescuento" />
+  </EntityContainer>
+  <EntityType Name="RegistroDescuento">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="porcentaje" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="ruta" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="rut" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="peajes" Type="Int32" />
+    <Property Name="fecha" Type="DateTime" Precision="0" />
+  </EntityType>
+</Schema>
